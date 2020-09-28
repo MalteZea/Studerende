@@ -28,28 +28,34 @@ public class Main {
         std5.alder = 42;
         std5.by = "Næstved";
 
+        while (true) {
+
         Scanner input = new Scanner(System.in);
         System.out.print("Write the name of the student you wish to find data on: ");
         String nameToFind = input.next();
 
-        switch (nameToFind) {
-            case "Leila":
-                System.out.println(std1.alder);
-                break;
-            case "Jenna":
-                System.out.println(std2.alder);
-                break;
-            case "Malte":
-                System.out.println(std3.alder);
-                break;
-            case "Sara":
-                System.out.println(std4.alder);
-                break;
-            case "Louise":
-                System.out.println(std5.alder);
-                break;
 
+
+            switch (nameToFind) {
+                case "Leila":
+                    System.out.println(std1.alder);
+                    break;
+                case "Jenna":
+                    System.out.println(std2.alder);
+                    break;
+                case "Malte":
+                    System.out.println(std3.alder);
+                    break;
+                case "Sara":
+                    System.out.println(std4.alder);
+                    break;
+                case "Louise":
+                    System.out.println(std5.alder);
+                    break;
+                default:
+                    System.out.println("Student is not available");
+
+            }
         }
-
     }
 }
