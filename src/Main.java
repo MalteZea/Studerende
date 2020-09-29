@@ -8,15 +8,10 @@ public class Main {
         std1.alder = 49;
         std1.by = "Næstved";
 
-        Studerende std2 = new Studerende();
-        std2.navn = "Jenna";
-        std2.alder = 36;
-        std2.by = "Nørre Alslev";
+        Studerende std2 = new Studerende("Jenna", 36, "Nørre Alslev");
 
-        Studerende std3 = new Studerende();
-        std3.navn = "Malte";
-        std3.alder = 28;
-        std3.by = "Nykøbing F";
+
+        Studerende std3 = new Studerende("Malte", 28);
 
         Studerende std4 = new Studerende();
         std4.navn = "Sara";
@@ -25,8 +20,8 @@ public class Main {
 
         Studerende std5 = new Studerende();
         std5.navn = "Louise";
-        std5.alder = 42;
-        std5.by = "Næstved";
+        std5.alder = 41;
+        std5.by = "Glumsø";
 
         while (true) {
 

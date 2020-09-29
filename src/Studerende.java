@@ -14,4 +14,15 @@ public class Studerende {
 studieretning = "Datamatiker";
 campus = "Næstved";
     }
+
+    public Studerende(String navn, int alder, String by) {
+        this.navn = navn;
+        this.alder = alder;
+        this.by = by;
+    }
+
+    public Studerende(String x, int y) {
+        this.navn = x;
+        this.alder = y;
+    }
 }
